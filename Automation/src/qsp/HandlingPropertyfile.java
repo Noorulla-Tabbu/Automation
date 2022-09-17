@@ -16,9 +16,9 @@ public class HandlingPropertyfile {
 		WebDriver driver=new ChromeDriver();
 		//using Property File data
 		FileLibrary fl = new FileLibrary();
-		String url = fl.getPropertyData("url");
-		String un = fl.getPropertyData("username");
-		String pw = fl.getPropertyData("password");
+		String url = fl.readPropertyData("url");
+		String un = fl.readPropertyData("username");
+		String pw = fl.readPropertyData("password");
 		driver.get(url);
 		driver.findElement(By.id("username")).sendKeys(un);
 		driver.findElement(By.name("pwd")).sendKeys(pw);
@@ -26,8 +26,8 @@ public class HandlingPropertyfile {
 		
 		//Using Excel data
 		WebDriver driver1=new ChromeDriver();
-		String username = fl.getExcelData("userlogin", 4, 1);
-		String password = fl.getExcelData("userlogin", 4, 2);
+		String username = fl.readExcelData("userlogin", 4, 1);
+		String password = fl.readExcelData("userlogin", 4, 2);
 		driver1.get("https://demo.actitime.com/");
 		driver1.findElement(By.id("username")).sendKeys(username);
 		driver1.findElement(By.name("pwd")).sendKeys(password);
