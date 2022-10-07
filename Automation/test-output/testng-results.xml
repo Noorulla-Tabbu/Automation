@@ -8,7 +8,7 @@
       <![CDATA[login acoount]]>
     </line>
     <line>
-      <![CDATA[Noor]]>
+      <![CDATA[Hi]]>
     </line>
     <line>
       <![CDATA[logout acoount]]>
@@ -17,40 +17,40 @@
       <![CDATA[close browser]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="16661" started-at="2022-09-17T19:50:35 IST" finished-at="2022-09-17T19:50:52 IST">
+  <suite name="Default suite" duration-ms="13493" started-at="2022-10-07T23:34:06 IST" finished-at="2022-10-07T23:34:20 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16661" started-at="2022-09-17T19:50:35 IST" finished-at="2022-09-17T19:50:52 IST">
+    <test name="Default test" duration-ms="13493" started-at="2022-10-07T23:34:06 IST" finished-at="2022-10-07T23:34:20 IST">
       <class name="com.automation.testscript.LoginActi">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automation.testscript.LoginActi@553a3d88]" name="openBrowser" is-config="true" duration-ms="2862" started-at="2022-09-17T19:50:35 IST" finished-at="2022-09-17T19:50:38 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automation.testscript.LoginActi@5f3a4b84]" name="openBrowser" is-config="true" duration-ms="2737" started-at="2022-10-07T23:34:06 IST" finished-at="2022-10-07T23:34:09 IST">
           <reporter-output>
             <line>
               <![CDATA[open browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.automation.testscript.LoginActi@553a3d88]" name="login" is-config="true" duration-ms="8204" started-at="2022-09-17T19:50:38 IST" finished-at="2022-09-17T19:50:46 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.automation.testscript.LoginActi@5f3a4b84]" name="login" is-config="true" duration-ms="5977" started-at="2022-10-07T23:34:09 IST" finished-at="2022-10-07T23:34:15 IST">
           <reporter-output>
             <line>
               <![CDATA[login acoount]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="loginAccount()[pri:0, instance:com.automation.testscript.LoginActi@553a3d88]" name="loginAccount" duration-ms="8" started-at="2022-09-17T19:50:46 IST" finished-at="2022-09-17T19:50:46 IST">
+        <test-method status="PASS" signature="loginAccount()[pri:0, instance:com.automation.testscript.LoginActi@5f3a4b84]" name="loginAccount" duration-ms="8" started-at="2022-10-07T23:34:15 IST" finished-at="2022-10-07T23:34:15 IST">
           <reporter-output>
             <line>
-              <![CDATA[Noor]]>
+              <![CDATA[Hi]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginAccount -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.automation.testscript.LoginActi@553a3d88]" name="logout" is-config="true" duration-ms="5359" started-at="2022-09-17T19:50:46 IST" finished-at="2022-09-17T19:50:52 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.automation.testscript.LoginActi@5f3a4b84]" name="logout" is-config="true" duration-ms="4578" started-at="2022-10-07T23:34:15 IST" finished-at="2022-10-07T23:34:20 IST">
           <reporter-output>
             <line>
               <![CDATA[logout acoount]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.testscript.LoginActi@553a3d88]" name="closeBrowser" is-config="true" duration-ms="173" started-at="2022-09-17T19:50:52 IST" finished-at="2022-09-17T19:50:52 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.testscript.LoginActi@5f3a4b84]" name="closeBrowser" is-config="true" duration-ms="146" started-at="2022-10-07T23:34:20 IST" finished-at="2022-10-07T23:34:20 IST">
           <reporter-output>
             <line>
               <![CDATA[close browser]]>
@@ -58,6 +58,6 @@
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.automation.testscript.LoginActi -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
