@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.automation.testscript.ActiLogin"/>
       <class name="com.automation.testscript.LoginActi"/>
     </classes>
   </test> <!-- Test -->
