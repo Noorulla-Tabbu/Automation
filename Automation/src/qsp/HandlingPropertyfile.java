@@ -5,7 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.actitime.generic.FileLibrary;
+import com.automation.generic.FileLibrary;
+
 
 public class HandlingPropertyfile {
 	static {
@@ -15,10 +16,10 @@ public class HandlingPropertyfile {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		WebDriver driver=new ChromeDriver();
 		//using Property File data
-		FileLibrary fl = new FileLibrary();
-		String url = fl.readPropertyData("url");
-		String un = fl.readPropertyData("username");
-		String pw = fl.readPropertyData("password");
+		FileLibrary f1 = new FileLibrary();
+		String url = f1.readPropertyData("url");
+		String un = f1.readPropertyData("username");
+		String pw = f1.readPropertyData("password");
 		driver.get(url);
 		driver.findElement(By.id("username")).sendKeys(un);
 		driver.findElement(By.name("pwd")).sendKeys(pw);
@@ -26,8 +27,8 @@ public class HandlingPropertyfile {
 		
 		//Using Excel data
 		WebDriver driver1=new ChromeDriver();
-		String username = fl.readExcelData("userlogin", 4, 1);
-		String password = fl.readExcelData("userlogin", 4, 2);
+		String username = f1.readExcelData("userlogin", 4, 1);
+		String password = f1.readExcelData("userlogin", 4, 2);
 		driver1.get("https://demo.actitime.com/");
 		driver1.findElement(By.id("username")).sendKeys(username);
 		driver1.findElement(By.name("pwd")).sendKeys(password);

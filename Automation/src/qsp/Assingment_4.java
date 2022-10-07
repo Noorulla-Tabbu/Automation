@@ -40,7 +40,7 @@ public class Assingment_4 {
 //*****************************************************************************************************	
 //Printing all Options in Reverse Order present in CheckPost List Box
 			
-			WebDriver driver1 = new ChromeDriver();
+			/*WebDriver driver1 = new ChromeDriver();
 			driver1.get("file:///D:/Desktop%20files/Hotel.html");
 			WebElement listBox = driver1.findElement(By.id("cp"));
 			Select s1= new Select(listBox);
@@ -135,7 +135,7 @@ public class Assingment_4 {
 			String text = e.getText();
 			System.out.println(text);
 		}
-		driver3.close();
+		driver3.close();*/
 		
 	}
 }

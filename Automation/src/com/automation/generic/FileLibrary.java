@@ -13,7 +13,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class FileLibrary {
 
 ///Reading the data from property file***********************************************************
-	public String ReadPropertyData(String key) throws IOException
+	public String readPropertyData(String key) throws IOException
 	{
 		FileInputStream fis= new FileInputStream("./data/commondata.property.txt");
 		Properties p = new Properties();
@@ -23,7 +23,7 @@ public class FileLibrary {
 	}
 	
 ///Reading the data from Excel file****************************************************************
-	public String ReadExcelData(String sheet,int row,int cell) throws EncryptedDocumentException, IOException
+	public String readExcelData(String sheet,int row,int cell) throws EncryptedDocumentException, IOException
 	{
 		FileInputStream fis= new FileInputStream("./data/testscript.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
