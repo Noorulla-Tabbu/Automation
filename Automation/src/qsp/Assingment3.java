@@ -15,7 +15,7 @@ public class Assingment3
 	public static void main(String[] args) {
 //***********************************************************************************************************
 //printing the url after entering wipro jobs in google.com
-		WebDriver driver = new ChromeDriver();
+		/*WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.findElement(By.name("q")).sendKeys("wipro jobs"+Keys.ENTER);
 		List<WebElement> sug = driver.findElements(By.xpath("//a"));
@@ -26,10 +26,10 @@ public class Assingment3
 			String url = sug.get(i).getAttribute("href");
 			System.out.println(url);
 		}
-		driver.close();
+		driver.close();*/
 //***********************************************************************************************************
 //printing the latest news present in BBC.com
-		/*WebDriver driver1 = new ChromeDriver();
+		WebDriver driver1 = new ChromeDriver();
 		driver1.get("https://www.bbc.com/");
 		List<WebElement> links = driver1.findElements(By.xpath("//span[@class='top-list-item__bullet']/../h3"));
 		int count1=links.size();
@@ -39,6 +39,6 @@ public class Assingment3
 			String text = links.get(i).getText();
 			System.out.println(text);
 		}
-		driver1.close();*/
+		driver1.close();
 	}
 }

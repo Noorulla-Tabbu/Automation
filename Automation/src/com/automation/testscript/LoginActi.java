@@ -12,6 +12,6 @@ public class LoginActi extends BaseClass{
 	
 	@Test
 	public void loginAccount() {
-		
+		Reporter.log("Hi",true);
 	}
 }
